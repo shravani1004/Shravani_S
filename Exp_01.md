@@ -16,3 +16,4 @@ A basic MOSFET arrangement utilized in analog circuit design, the Common Source 
    - **.tran 1m** (Transient analysis for 1ms)  
    - **.ac dec 20 1k 1T** (AC analysis from 1kHz to 1THz with 20 points per decade)
   
+# Circuit Diagram 
