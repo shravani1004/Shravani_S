@@ -1,5 +1,5 @@
 # EXPERIMENT - 01
-DC, AC and Transient Analysis Of Common Source Amplifier Experiment
+Analysis Of Common Source Amplifier Experiment
 # Introduction
 A basic MOSFET arrangement utilized in analog circuit design, the Common Source (CS) Amplifier offers a sizable voltage gain for amplification applications. The purpose of this experiment is to examine a CS amplifier's DC, AC, and transient response in order to comprehend how it behaves under various operating circumstances. By computing the DC voltages and currents, DC analysis establishes the operating point (Q-point), which guarantees the MOSFET operates in the intended region, usually saturation for amplification. Using small-signal equivalent models, AC analysis assesses small-signal characteristics, such as gain, input and output impedance, and frequency response. Transient analysis provides information on switching behavior, signal distortion, and reaction time by analyzing the amplifier's time-domain response to input signals, such as step or sinusoidal waveforms.
 
