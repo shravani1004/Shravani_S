@@ -17,3 +17,8 @@ A basic MOSFET arrangement utilized in analog circuit design, the Common Source 
    - **.ac dec 20 1k 1T** (AC analysis from 1kHz to 1THz with 20 points per decade)
   
 # Circuit Diagram 
+Circuit - 01
+![1000076651](https://github.com/user-attachments/assets/d5218f21-53d4-4196-8c7d-71a11c4b7373) 
+# circuit Simulation 
+![1000076654](https://github.com/user-attachments/assets/ef63cc68-45a4-4e33-8139-1f30e3292cf2)
+
