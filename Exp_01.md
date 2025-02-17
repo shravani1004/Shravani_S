@@ -82,7 +82,10 @@ DC Analysis :
 
 ![q2_dc](https://github.com/user-attachments/assets/87f6dd2f-c73f-4562-864a-2f1e4d78eb16)
 
+AC Analysis : 
 
+![q2_AC](https://github.com/user-attachments/assets/040c0bae-0baf-44a5-a065-12dc004688b9)
 
+Transient Analysis : 
 
-
+![q2_Transient](https://github.com/user-attachments/assets/53a4977e-5fc8-4e73-aa2a-8a17f4a2ce76)
