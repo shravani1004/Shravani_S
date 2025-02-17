@@ -25,9 +25,12 @@ DC Analysis
 
 From the simulation results:
 
-• Current through R1 (I_R1) = 27.67 μΑ
+When FET is in Saturation 
+Q point is (1.77V , 27.67μΑ)
 
-• Voltage across R1 (V_R1) = 1.8V - 1.77233V = 0.02767V
+• Current through R1 (IR1) = 27.67 μΑ
+
+• Voltage across R1 (VR1) = 1.8V - 1.77233V = 0.02767V
 
 Power Consumption:
 
@@ -46,10 +49,24 @@ Cdb2fF (from TSMC 180nm models)
 
 • Assuming parasitic capacitances, we estimate Cout≈ 5fF.
 
-fc 1 2 × 12 × 5fF 
+fc = 1/(2π × 2×1000 × 5fF) 
 fc ≈ 31.8 MH 
 
 FINAL RESULT :
+
 Power Consumption : 49.8μW
+
 Gain : -11 dB
-Bandwidth : 31.8 MH
+
+Bandwidth : 31.8 MHz
+
+AC Analysis :
+
+![q1_AC](https://github.com/user-attachments/assets/759007ef-1d7b-48e6-8f14-0230fe83aaaa)
+
+Transient : 
+
+![q1_transient](https://github.com/user-attachments/assets/ccdbabff-8cd5-4841-bd17-120d5e2a1e28)
+
+
+
