@@ -89,3 +89,18 @@ AC Analysis :
 Transient Analysis : 
 
 ![q2_Transient](https://github.com/user-attachments/assets/53a4977e-5fc8-4e73-aa2a-8a17f4a2ce76)
+
+# Inference :
+
+Inference Drawn from the Analysis
+1.The circuit's power consumption of 49.8 µW falls within the 50 μW allowance. This demonstrates that, using a 180nm TSMC process, the design is power-efficient.
+
+2. Gain in Voltage A common-source amplifier's computed gain of -0.11 (or -11 dB) is extremely low. This implies that either the transconductance is poor because of a tiny drain current or the transistor is functioning in weak/moderate inversion. Gain might be enhanced by a greater gm (by raising ID or changing Vas).
+
+4. Bandwidth An appropriate bandwidth for a low-power common-source amplifier in 180nm CMOS is expected to be between 31.8 MHz.
+• The estimated bandwidth is approximately approx 31.8MHz, which is appropriate for a 180nm CMOS low-power common-source amplifier. Reducing output capacitance can assist if a higher bandwidth is required. 
+
+ # Conclusion 
+ 
+• The circuit has modest gain yet satisfies the power budget. Changes in transistor size, bias current, or load resistance can be required if a larger gain is the desired outcome. 
+• The bandwidth is suitable, however to verify precise values, an AC simulation in LTspice should be run.
