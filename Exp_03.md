@@ -34,6 +34,8 @@ Rss = Vp/Iss
 
 Rss = 800 ohm 
 
+On calculating Q point :
+
 VG = Vicm = 1V
 
 VS = VP = 0.4V 
@@ -45,12 +47,12 @@ VGS = VG - VS = 0.6V
 VGD = VG - VD = -0.1V
 
 therefore, VGS >= Vtn
+
 VGD <= Vtn
 
 thus the given fet is in saturation 
 
-
-Operating/ Q point
+Operating/ Q point (0.7V, 0.25mA) @ VGS = 0.6V
 
 # Design Considerations
 
