@@ -133,7 +133,7 @@ From the waveform, Output Voltage Swing varies from 1.0V to 1.2V
 
 So, Output Swing (Vout Range) = 1.0V to 1.2V (200mV peak-to-peak)
 
-3.Input Swing Calculation
+ 3. Input Swing Calculation
 
 Input Voltage Swing varies from 0.94V to 1.07V
 
@@ -166,6 +166,15 @@ From the AC analysis plot, the output voltage gain V(n003) is approximately 5.5 
 Av = 10^{(5.5/20)} \ 1.88]
 Thus, Voltage Gain (Av) ≈ 1.88.
 
+Bandwidth:
+
+1. Mid-band gain in dB = 5.5 dB
+A = 10(5.5/20) = 1.88
+-3 dB cutoff point: Gain-3dB = 5.5 3 2.5 dB
+Bandwidth (BW) = Frequency where gain drops to 2.5 dB
+
+BW ≈ 2 GHz
+
 
 
 # Circuit 3 :
@@ -184,3 +193,49 @@ AC ANALYSIS :
 
 TRANSIENT :
 ![ckt3_ac](https://github.com/user-attachments/assets/0dad0625-9deb-4bd1-8d40-4270f3c764c1)
+
+1. Gain :
+
+Gain(A) = Vout\Vin
+
+From the AC analysis graph, we can see that:
+
+• Input voltage Vin = 1V (from the circuit schematic)
+
+• Output voltage Vout ≈ 1.84V (from the AC analysis plot in dB: 1.84 dB ≈ 1.14 linear)
+
+Thus
+
+ the gain is approximately 1.84  (≈ 2.92 dB).
+
+ To calculate the bandwidth, we need to find the frequency range where the gain is within -3 dB of the maximum gain.
+
+From the AC analysis plot:
+
+The maximum gain is around 1.4 dB.
+
+The -3 dB point occurs when the gain drops to 1.4 dB - 3 dB = -1.6 dB.
+
+Observing the graph, the lower cutoff frequency appears to be around 100 Hz, and the upper cutoff frequency is around 100 MHz.
+
+2. Bandwidth :
+   
+Thus, the Bandwidth (BW) is:
+
+BW = f_{\text{high}} - f_{\text{low}} = 100 \text{ MHz} - 100 \text{ Hz} \approx 99.9999 \text{ MHz}
+
+So, the bandwidth is approximately 100 MHz.
+
+3. Input Swing
+
+From the transient analysis, the input signal varies between 0.94V to 1.14V.
+Thus, the input swing is:
+
+Vin = 1.14V - 0.94V = 0.2V 
+
+4. Output Swing
+
+From the transient analysis, the output voltage varies between 0.96V to 1.12V.
+Thus, the output swing is:
+Vout = 1.12V - 0.96V = 0.16V
+
