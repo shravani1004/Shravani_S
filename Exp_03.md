@@ -34,6 +34,24 @@ Rss = Vp/Iss
 
 Rss = 800 ohm 
 
+VG = Vicm = 1V
+
+VS = VP = 0.4V 
+
+VD = Vocm = 1.1V
+
+VGS = VG - VS = 0.6V
+
+VGD = VG - VD = -0.1V
+
+therefore, VGS >= Vtn
+VGD <= Vtn
+
+thus the given fet is in saturation 
+
+
+Operating/ Q point
+
 # Design Considerations
 
 1.The circuit consists of two MOSFETs (M1 and M2) forming a differential pair.
@@ -58,10 +76,9 @@ Measure how the amplifier reacts to differential signals.
 Analyze gain variations over different frequencies.
 Identify bandwidth and key performance parameters.
 
+Operating/ Q point 
 
 Expected Outcome :
 
 This experiment will help understand the behavior of a MOS differential amplifier, including gain characteristics, input-output relationships, and frequency response, which are crucial for analog circuit design.
 
-
-Operating/ Q point 
