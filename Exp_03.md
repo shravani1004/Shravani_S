@@ -87,11 +87,57 @@ DC ANALYSIS :
 AC ANALYSIS :
 ![ckt1_tran](https://github.com/user-attachments/assets/03e12e77-3405-46c1-84d4-1836ce7e2f98)
 
+Bandwidth Calculation
+
+1. Midband Gain Calculation
+ 
+From the AC analysis plot:
+• The midband gain is approximately 5.5 dB.
+The gain in dB is given by:
+
+A(dB) = 20 log10|Av| ≈ 1.88
+
+2.-3dB Bandwidth Calculation
+
+The bandwidth is the frequency at which the gain drops by 3 dB from the midband value:
+
+Av (dB)-3dB = 5.5 - 3 = 2.5 dB 
+Converting this back to linear gain: 
+A(-3dB) = 10^(25\10) ≈ 1.33 
+From the plot, this occurs around 100 MHz.
+
+f(-3dB) ≈ 100 MHz
+
 
 TRANSIENT ANALYSIS :
 ![ckt1_ac](https://github.com/user-attachments/assets/5a9ef40a-6742-490a-870b-d45f3029d73f)
 
+1. Gain Calculation
 
+Gain (Av) = Vout / Vin
+
+From the waveform:
+
+• Input Signal (Green Waveform, V(n003)) varies between 0.94V to 1.07V
+• Peak-to-peak (Vin(pp)) ≈ 1.07V - 0.94V = 0.13V
+• Output Signal (Blue Waveform, V(vocm)) varies between 1V to 1.20V
+• Peak-to-peak (Vout(pp)) ≈ 1.20V - 1.00V = 0.20V
+
+Gain (Av) = Vout(pp) / Vin(pp) = 0.20V / 0.13V ≈ 1.54
+
+
+
+2. Output Swing Calculation
+
+From the waveform, Output Voltage Swing varies from 1.0V to 1.2V
+
+So, Output Swing (Vout Range) = 1.0V to 1.2V (200mV peak-to-peak)
+
+3.Input Swing Calculation
+
+Input Voltage Swing varies from 0.94V to 1.07V
+
+So, Input Swing (Vin Range) = 0.94V to 1.07V (130mV peak-to-peak)
 
 
 
