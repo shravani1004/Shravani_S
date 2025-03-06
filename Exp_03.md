@@ -79,8 +79,14 @@ Identify bandwidth and key performance parameters.
 DIAGRAM :
 ![ckt1_dia](https://github.com/user-attachments/assets/75013c09-ad96-4df1-9754-91a11e950119)
 
+
+DC ANALYSIS :
+![ckt1_dc](https://github.com/user-attachments/assets/8648a4ae-598e-45ed-9fb0-5d0ac7e88558)
+
+
 AC ANALYSIS :
 ![ckt1_tran](https://github.com/user-attachments/assets/03e12e77-3405-46c1-84d4-1836ce7e2f98)
+
 
 TRANSIENT ANALYSIS :
 ![ckt1_ac](https://github.com/user-attachments/assets/5a9ef40a-6742-490a-870b-d45f3029d73f)
@@ -94,11 +100,18 @@ TRANSIENT ANALYSIS :
 DIAGRAM :
 ![ckt2_dia](https://github.com/user-attachments/assets/9423fb47-d3c6-4d66-9548-eeb04633119d)
 
+
+DC ANALYSIS :
+![ckt2_dc](https://github.com/user-attachments/assets/b4334d06-300b-48f1-b002-9c5ba3ab7600)
+
+
 AC ANALYSIS :
 ![ckt2_tran](https://github.com/user-attachments/assets/75a3ce62-4465-4f2b-a7f7-23299bf19dff)
 
+
 TRANSIENT :
 ![ckt2_ac](https://github.com/user-attachments/assets/25add486-3a2a-4985-8380-f6544d591b78)
+
 
 
 
@@ -107,6 +120,10 @@ TRANSIENT :
 
 DIAGRAM :
 ![ckt2_dia](https://github.com/user-attachments/assets/899a83d7-bb16-4292-988a-8fd3b17eaf2b)
+
+
+DC ANALYSIS :
+![ckt3_dc](https://github.com/user-attachments/assets/60ee2eb4-9446-42a7-8830-6e052b1c7e65)
 
 
 AC ANALYSIS :
