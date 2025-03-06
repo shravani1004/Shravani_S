@@ -1,6 +1,6 @@
 # Experiment - 03
-Analysis of Differential Amplifier Circuit.
-# Introduction : 
+# Analysis of Differential Amplifier Circuit.
+
 
 # Objective :
 The aim of this experiment is to design and analyze a MOS differential amplifier based on given specifications. The experiment involves DC analysis, transient analysis, and frequency response evaluation to extract key parameters affecting amplifier performance.
