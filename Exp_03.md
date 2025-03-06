@@ -123,7 +123,7 @@ From the waveform:
 • Output Signal (Blue Waveform, V(vocm)) varies between 1V to 1.20V
 • Peak-to-peak (Vout(pp)) ≈ 1.20V - 1.00V = 0.20V
 
-Gain (Av) = Vout(pp) / Vin(pp) = 0.20V / 0.13V ≈ 1.54
+Gain (Av) = Vout(pp) / Vin(pp) = 0.20V / 0.13V ≈ 1.84
 
 
 
@@ -159,7 +159,12 @@ AC ANALYSIS :
 TRANSIENT :
 ![ckt2_ac](https://github.com/user-attachments/assets/25add486-3a2a-4985-8380-f6544d591b78)
 
+Gain Calculation :
 
+From the AC analysis plot, the output voltage gain V(n003) is approximately 5.5 dB.
+Αυ = 10(Gain(dB)/20)
+Av = 10^{(5.5/20)} \ 1.88]
+Thus, Voltage Gain (Av) ≈ 1.88.
 
 
 
