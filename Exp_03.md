@@ -133,6 +133,7 @@ From the waveform, Output Voltage Swing varies from 1.0V to 1.2V
 
 So, Output Swing (Vout Range) = 1.0V to 1.2V (200mV peak-to-peak)
 
+
  3. Input Swing Calculation
 
 Input Voltage Swing varies from 0.94V to 1.07V
@@ -159,14 +160,14 @@ AC ANALYSIS :
 TRANSIENT :
 ![ckt2_ac](https://github.com/user-attachments/assets/25add486-3a2a-4985-8380-f6544d591b78)
 
-Gain Calculation :
+1. Gain Calculation :
 
 From the AC analysis plot, the output voltage gain V(n003) is approximately 5.5 dB.
 Αυ = 10(Gain(dB)/20)
 Av = 10^{(5.5/20)} \ 1.88]
 Thus, Voltage Gain (Av) ≈ 1.88.
 
-Bandwidth:
+2. Bandwidth:
 
 1. Mid-band gain in dB = 5.5 dB
 A = 10(5.5/20) = 1.88
@@ -212,18 +213,15 @@ Thus
 
 From the AC analysis plot:
 
-The maximum gain is around 1.4 dB.
+The maximum gain is around 1.84 dB.
 
-The -3 dB point occurs when the gain drops to 1.4 dB - 3 dB = -1.6 dB.
+The -3 dB point occurs when the gain drops to 1.84 dB - 3 dB = -1.6 dB.
 
 Observing the graph, the lower cutoff frequency appears to be around 100 Hz, and the upper cutoff frequency is around 100 MHz.
 
 2. Bandwidth :
    
-Thus, the Bandwidth (BW) is:
-
-BW = f_{\text{high}} - f_{\text{low}} = 100 \text{ MHz} - 100 \text{ Hz} \approx 99.9999 \text{ MHz}
-
+Thus, the Bandwidth (BW)
 So, the bandwidth is approximately 100 MHz.
 
 3. Input Swing
@@ -239,3 +237,17 @@ From the transient analysis, the output voltage varies between 0.96V to 1.12V.
 Thus, the output swing is:
 Vout = 1.12V - 0.96V = 0.16V
 
+
+# Inference 
+
+•The differential amplifier circuit is analyzed using AC, transient, and DC analyses to understand its performance characteristics. From the AC analysis, the gain is determined from the magnitude response, while the bandwidth is measured from the -3dB cutoff points, indicating the frequency range over which the amplifier operates effectively. 
+
+•The transient analysis helps evaluate the input and output swing by analyzing the time-domain response, ensuring the circuit handles the required signal levels without distortion.
+
+•The DC analysis provides insight into the operating point, ensuring proper biasing and current flow through the transistors. 
+
+•Considering all three circuits, the differential amplifier demonstrates good gain and bandwidth, ensuring accurate signal amplification while maintaining stability. 
+
+# Conclusion 
+
+This experiment will help understand the behavior of a MOS differential amplifier, including gain characteristics, input-output relationships, and frequency response, which are crucial for analog circuit design.
